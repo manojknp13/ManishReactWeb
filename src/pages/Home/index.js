@@ -9,7 +9,7 @@ const Home = () => {
         <div className="main-container">
             <div className="heading">
                 <span className="greetings">Hi, i am</span>
-                <span className="greetings name"> Manish Kumar</span>
+                <span className="greetings name"> Manish Dwivedi</span>
             </div>
             <div className="about-user">
                 <p className="para">I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.</p>
