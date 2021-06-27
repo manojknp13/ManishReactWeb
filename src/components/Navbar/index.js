@@ -11,7 +11,7 @@ const Navbar = () => {
                         <img src={Pic} alt="profile pic" />
                     </div>
                     <ul className="links">
-                        <li><NavLink to="/" activeClassName="active">Home</NavLink></li>
+                        <li><NavLink  exact={true} to="/" activeClassName="active">Home</NavLink></li>
                         <li><NavLink to="/about" activeClassName="active">About</NavLink></li>
                         <li><NavLink to="/service" activeClassName="active">Services</NavLink></li>
                         <li><NavLink to="/contact" activeClassName="active">Contact Us</NavLink></li>
