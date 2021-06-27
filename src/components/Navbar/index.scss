@@ -1,21 +1,51 @@
 
 nav {
-    // float: left;
-    width: 30%;
-    height: 300px;
+    width: 260px;
     background: #ccc;
-    padding: 20px;
     height: 100vh;
+    position: fixed;
+    overflow: auto;
+    padding: 50px 0;
   
     .links {
+        
       list-style-type: none;
       padding: 0;
+      border-top: 1px solid gray;
+      border-bottom: 1px solid gray;
+      text-align: center;
+      margin-top: 30px;
+      text-transform: uppercase;
+      padding: 50px 0;
+        
+      li{
+        padding: 10px 0;
+        a{
+            text-decoration: none;
+          }
+          .active{
+              background-color: aqua;
+          }
+      }
+      
+      
+    }
+
+    .profile-pic{
+        height: 12vw;
+        width: 12vw;
+        border-radius: 50%;
+        border: 5px solid white;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 150px;
+        min-height: 150px;
+  
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
     }
   }
-
-  section::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
