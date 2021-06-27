@@ -1,12 +1,14 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import './index.scss';
 
 const Navbar = () => {
     return (
-        <>
-            <section>
+
+                
+
                 <nav>
-                    <ul>
+                    <ul className="links">
                         <li><NavLink to="/">Home</NavLink></li>
                         <li><NavLink to="/about">About Us</NavLink></li>
                         <li><NavLink to="/service">Services</NavLink></li>
@@ -14,12 +16,9 @@ const Navbar = () => {
                         <li><NavLink to="/works">Workes</NavLink></li>
                     </ul>
                 </nav>
-                <article>
-                
-                </article>
-            </section>
-        </>
-    )
+             
+          
+          )
 }
 
 export default Navbar;
