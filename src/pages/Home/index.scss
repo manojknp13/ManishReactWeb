@@ -1,17 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.main-container{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    // margin-top: 300px;
-    justify-content: center;
-    margin-left: 260px;
-}
+@import "../../scss/var.scss";
+
+
 .heading{
     display: flex;
     justify-content: center;
@@ -25,7 +14,13 @@
     font-weight: 700;
     
 }
-
+.home {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
 .about-user{
    width: 60%;
    text-align: center;
@@ -37,8 +32,8 @@
     line-height: 2rem;
 }
 .name{
-    color: #037fff;
-    margin-left: 5px;
+    color: $secondary;
+    margin-left: 10px;
 }
 
 .social-icon{

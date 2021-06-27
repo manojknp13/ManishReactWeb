@@ -6,7 +6,7 @@ import github from '../../assets/img/github.png';
 
 const Home = () => {
     return (
-        <div className="main-container">
+        <div className="home">
             <div className="heading">
                 <span className="greetings">Hi, i am</span>
                 <span className="greetings name"> Manish Dwivedi</span>

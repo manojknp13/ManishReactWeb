@@ -12,7 +12,9 @@ const App = () => {
   return (
     <div className="home-container">
       <Navbar />
-      <Switch >
+    <div className="page-container">
+        
+    <Switch >
         <Route path="/" component={Home} exact />
         <Route path="/about" component={About} exact />
         <Route path="/service" component={Services} exact />
@@ -20,6 +22,7 @@ const App = () => {
         <Route path="/works" component={Works} exact />
         
       </Switch>
+    </div>
  
     </div>
   )
