@@ -7,9 +7,11 @@
     }
     .block{
         display: flex;
+        flex-wrap: wrap;
         
         .left-block{
             width: 50%;
+            flex-shrink: 1;
   
             .profile-pic{
                 margin-left: 50px;
@@ -38,7 +40,7 @@
                 font-family: 'Nunito Sans', sans-serif;
                 font-size: 1.2rem;
                 line-height: 2rem;
-                text-align: center;
+                text-align: left;
             }
             .details{
 
@@ -61,6 +63,7 @@
                 cursor: pointer;
                 letter-spacing: 4px;
                 margin-top: 20px;
+                padding: 10px;
             }
         }
     }
