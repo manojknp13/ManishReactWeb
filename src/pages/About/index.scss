@@ -1,0 +1,68 @@
+.about-container{
+    
+    width: 100%;
+    flex-wrap: wrap;
+    .about-me{
+        margin: 20px 0 20px 55px;
+    }
+    .block{
+        display: flex;
+        
+        .left-block{
+            width: 50%;
+  
+            .profile-pic{
+                margin-left: 50px;
+                img{
+                    width: 83%;
+                    box-shadow: 0px 0px 10px 5px gray;
+                   
+                }
+            }
+        }
+
+        .right-block{
+            display: block;
+  
+            width: 50%;
+            padding-left: 50px;
+            .name h3{
+                font-size: 2.4rem;
+                span{
+                   color: gray;
+                }
+                   
+                }
+
+            .about{
+                font-family: 'Nunito Sans', sans-serif;
+                font-size: 1.2rem;
+                line-height: 2rem;
+                text-align: center;
+            }
+            .details{
+
+                .list{
+
+                    list-style: none;
+                    font-family: 'Nunito Sans', sans-serif;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 2.5rem;
+                }
+            }
+            button{
+                background-color: blue;
+                color: white;
+                border: none;
+                height: 3rem;
+                width: 50%;
+                font-weight: 700;
+                cursor: pointer;
+                letter-spacing: 4px;
+                margin-top: 20px;
+            }
+        }
+    }
+    
+}

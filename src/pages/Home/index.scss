@@ -1,0 +1,47 @@
+@import "../../scss/var.scss";
+
+
+.heading{
+    display: flex;
+    justify-content: center;
+    
+}
+.greetings{
+    font-size: 3.2786rem;
+    // color: white;
+    align-self: center;
+    flex-wrap: wrap ;
+    font-weight: 700;
+    
+}
+.home {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-user{
+   width: 60%;
+   text-align: center;
+   
+}
+.about-user p{
+    margin-top: 15px;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+.name{
+    color: $secondary;
+    margin-left: 10px;
+}
+
+.social-icon{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    width: 5rem;
+    margin: 20px 10px;
+
+}
